@@ -1,4 +1,6 @@
-header, body, footer {
+header,
+body,
+footer {
     background-color: #040537;
 }
 
@@ -76,7 +78,7 @@ h3 {
 
 @media screen and (max-width: 750px) {
 
-    .logo-container {
+    .logo-container-nav {
         margin-right: auto;
         padding: 0 0.8rem;
     }
@@ -120,6 +122,7 @@ h3 {
 /*big screens*/
 
 @media (min-width: 751px) {
+
     .hamburger-icon,
     #menu-checkbox {
         display: none;
@@ -131,5 +134,20 @@ h3 {
 @media screen and (min-width: 751px) and (max-width: 880px) {
     nav a {
         font-size: 0.75rem;
+    }
 }
+
+/*footer small screens*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.footerlogo {
+    width: 1rem;
+}
+
+.social-media-footer-logos img {
+    width: 0.8rem;
 }
