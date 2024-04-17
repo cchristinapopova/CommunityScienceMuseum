@@ -122,7 +122,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: #eb1260;
 }
 
@@ -147,7 +147,7 @@ footer {
     font-size: 0.5rem;
 }
 
-.all-footerlinks > div {
+.all-footerlinks>div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,6 +157,7 @@ footer {
 .all-footerlinks a {
     text-decoration: none;
     color: #fff;
+    margin-bottom: 0.3rem;
 }
 
 .copyright-text {
@@ -175,9 +176,9 @@ footer {
 @media (min-width: 300px) {
     .footer-content {
         display: grid;
-        grid-template-rows: repeat(2, 1fr);
         justify-content: center;
     }
+
     .footerlogo-and-social-media-footer-logos {
         display: grid;
         grid-template-columns: auto 1fr;
@@ -192,30 +193,47 @@ footer {
     .footerlogo img {
         width: 2rem;
     }
-    
+
     .social-media-footer-logos img {
         width: 1.5rem;
+    }
+
+    .all-footerlinks a {
+        font-size: 0.6rem;
     }
 }
 
 @media (min-width: 320px) {
     .social-media-footer-logos img {
         width: 1.7rem;
-}
+    }
 }
 
 @media (min-width: 330px) {
     .social-media-footer-logos img {
         width: 1.8rem;
-}
+    }
 }
 
 @media (min-width: 350px) {
     .social-media-footer-logos img {
         width: 1.9rem;
-}
+    }
+
     .footerlogo img {
         width: 3rem;
+    }
+
+    .all-footerlinks>div {
+        justify-content: flex-start;
+    }
+
+    .all-footerlinks a {
+        font-size: 0.7rem;
+    }
+
+    .copyright-text h3 {
+        font-size: 0.7rem;
     }
 }
 
@@ -228,7 +246,7 @@ footer {
 @media (min-width: 400px) {
     .social-media-footer-logos img {
         width: 2.4rem;
-}
+    }
 }
 
 /*footer big screens*/
@@ -236,12 +254,15 @@ footer {
 @media (min-width: 500px) {
     .social-media-footer-logos img {
         width: 3rem;
-}
+    }
 
-    .all-footerlinks > div {
+    .all-footerlinks>div {
         display: flex;
         flex-direction: row;
-        gap: 1rem;
         justify-content: space-around;
+    }
+
+    .all-footerlinks a {
+        margin-top: 0.5rem;
     }
 }
