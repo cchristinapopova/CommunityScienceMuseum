@@ -6,6 +6,7 @@ footer {
 
 body {
     position: relative;
+    color: #fff;
 }
 
 .headerlogo {
@@ -39,8 +40,7 @@ nav a:hover {
 }
 
 main {
-    max-width: 1000px;
-    align-self: center;
+    max-width: 100%;
 }
 
 body {
@@ -51,8 +51,20 @@ body {
     flex-direction: column;
 }
 
-main {
-    flex: 1;
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+}
+
+p {
+    font-size: 0.8rem;
 }
 
 /*small screens*/
@@ -65,7 +77,6 @@ main {
     }
 
     header {
-        position: absolute;
         font-size: 3.3rem;
         z-index: 1000;
     }
@@ -119,11 +130,12 @@ main {
 /*footer small screens*/
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     font-size: 1rem;
     color: #eb1260;
+    margin-top: 2rem;
 }
 
 .footerlogo img {
@@ -158,6 +170,11 @@ footer {
     text-decoration: none;
     color: #fff;
     margin-bottom: 0.3rem;
+}
+
+footer a:hover {
+    color: #eb1260;
+    font-weight: bold;
 }
 
 .copyright-text {
