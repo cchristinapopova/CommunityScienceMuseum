@@ -25,7 +25,7 @@
     flex-direction: column;
     padding: 1rem 0 0 0;
     margin: 0 auto;
-    max-width: 440px;
+    max-width: 840px;
     align-content: center;
 }
 
@@ -50,13 +50,25 @@
     }
 }
 
+@media screen and (min-width: 528px) {
+    .column-1-explore-img-1-content img {
+        max-height: 169px;
+    }
+    .column-1-explore-img-1-content{
+        max-width: fit-content;
+    }
+    .column-1 {
+        justify-content: space-between;
+    }
+}
+
 /*Column 2*/
 
 .column-2-explore-img-2-content {
     display: flex;
     flex-direction: column;
     margin: 0.5rem auto 0 auto;
-    max-width: 440px;
+    max-width: 840px;
 }
 
 .column-2-explore-img-2-content img {
@@ -70,7 +82,7 @@
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 440px;
+    max-width: 840px;
     align-content: center;
 }
 
@@ -83,7 +95,7 @@
 
 .column-4 {
     margin: 0 auto;
-    max-width: 440px;
+    max-width: 840px;
     align-content: center;
 }
 
@@ -93,7 +105,7 @@
     object-fit: cover;
 }
 
-.column-4-toy-img-4-content img{
+.column-4-toy-img-4-content img {
     max-width: 50%;
     float: left;
     margin: 0.3rem 0.5rem 0rem 0rem;
@@ -124,6 +136,10 @@
     margin-top: 0;
 }
 
+.column-4-toy-img-4-content img {
+    margin-top: 0;
+}
+
 .column-4-toy-img-4-content img,
 .column-4-heart-img-5-content img {
     min-width: 100%;
@@ -137,7 +153,7 @@
 .panel {
     display: flex;
     flex-direction: column;
-    max-width: 440px;
+    max-width: 840px;
     margin: 0 auto;
     align-content: center;
     margin-top: 0.5rem;
@@ -184,13 +200,12 @@
     object-fit: cover;
 }
 
-
 .column-for-kids-img-1-content img {
     max-width: 50%;
     float: left;
     margin-right: 0.5rem;
-    margin-top: 1.2rem;
-    max-height: 178px;
+    margin-top: 1.5rem;
+    max-height: 135px;
 }
 
 .column-for-kids-img-2-content img {
@@ -201,9 +216,11 @@
 
 .column-for-teachers-img-1-content img {
     max-width: 50%;
+    max-height: 135px;
     float: right;
     margin-right: 0.5rem;
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
 }
 
 /*Collapsible 3 FOR RESEARCHERS*/
