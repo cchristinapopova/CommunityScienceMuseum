@@ -4,7 +4,6 @@
     display: flex;
     color: #fff;
     text-transform: uppercase;
-    text-align: center;
     -webkit-text-stroke: 0.1rem #040537;
     text-shadow: 0 0 8px #040537;
     background-image: url(../images/index_images/title_background_img.jpg);
