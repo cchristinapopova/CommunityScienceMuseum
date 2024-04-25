@@ -101,7 +101,8 @@
     }
     .column-2-evolution-img-1-content img {
         min-width: 100%;
-        height: 535px;
+        height: 340px;
+        object-position: top;
     }
 } 
 
@@ -157,6 +158,60 @@
     .column-3-biology-img-1-content img {
         min-width: 100%;
         height: 372px;
+    }
+} 
+
+/*COLUMN 4*/
+
+.column-4 {
+    max-width: 840px;
+}
+
+.column-4 h2 {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 399px) {
+    .column-4-robotics-img-and-text-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-4-robotics-img-1-content {
+        order: 2; 
+        margin-top: 1rem; 
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .column-4 {
+        display: flex;
+
+    }
+    .column-4-robotics-img-1-content img {
+        float: left;
+        max-width: 50%;
+        margin: 0.3rem 0.5rem 0.5rem 0;
+    }   
+}
+
+@media screen and (min-width: 847px) {
+    .column-4 {
+        margin: 0 auto;
+    }
+    .column-4-robotics-img-and-text-container {
+        display: flex;
+        gap: 0.5rem;
+    }
+    .column-4-robotics-img-and-text-container > * {
+        flex-basis: 50%;
+    }
+    .column-4-robotics-img-1-content {
+        margin-top: 1rem; 
+    }
+    .column-4-robotics-img-1-content img {
+        min-width: 100%;
+        height: 135px;
     }
 } 
 
