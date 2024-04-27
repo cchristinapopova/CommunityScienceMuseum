@@ -331,20 +331,6 @@
 }
 
 @media screen and (min-width: 847px) {
-    .column-6 {
-        margin: 0 auto;
-    }
-    .column-6-visiting-img-and-text-container {
-        display: flex;
-        gap: 0.5rem;
-    }
-    .column-6-visiting-img-and-text-container > * {
-        flex-basis: 50%;
-    }
-    .column-6-visiting-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
-    }
     .column-6-visiting-img-1-content img {
         min-width: 100%;
         max-height: 300px;
@@ -388,19 +374,6 @@
 }
 
 @media screen and (min-width: 847px) {
-    .column-7 {
-        margin: 0 auto;
-    }
-    .column-7-night-img-and-text-container {
-        display: flex;
-        gap: 0.5rem;
-    }
-    .column-7-night-img-and-text-container > * {
-        flex-basis: 50%;
-    }
-    .column-7-night-img-1-content {
-        margin-top: 1rem; 
-    }
     .column-7-night-img-1-content img {
         min-width: 100%;
         max-height: 300px;
@@ -444,29 +417,18 @@
 }
 
 @media screen and (min-width: 847px) {
-    .column-8 {
-        margin: 0 auto;
-    }
-    .column-8-energetica-img-and-text-container {
-        display: flex;
-        gap: 0.5rem;
-    }
-    .column-8-energetica-img-and-text-container > * {
-        flex-basis: 50%;
-    }
-    .column-8-energetica-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
-    }
+
     .column-8-energetica-img-1-content img {
         min-width: 100%;
-        max-height: 300px;
+        height: 300px;
     }
 
     .container-for-news-columns {
         display: flex;
         max-width: 840px;
         margin: 0 auto;
+        gap: 1.1rem;
+        justify-content: center;
     }
 
     .column-6-visiting-container, 
@@ -474,6 +436,13 @@
     .column-8-energetica-container {
         display: flex;
         flex-direction: column;
+        max-width: 17rem;
+    }
+
+    .column-6-visiting-container h2, 
+    .column-7-night-container h2,
+    .column-8-energetica-container h2 {
+        text-align: center;
     }
 }
 
