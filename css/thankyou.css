@@ -1,0 +1,10 @@
+.column-1-container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+h1,
+p {
+    text-align: center;
+    margin-top: 2rem;
+}
