@@ -1,0 +1,73 @@
+/*All Columns*/
+
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10 {
+    max-width: 840px;
+}
+
+@media screen and (max-width: 399px) {
+    .column-1-introduction-container,
+    .column-2-scope-container,
+    .column-3-use-of-information-container,
+    .column-4-data-security-container,
+    .column-5-third-party-links-container,
+    .column-6-childrens-privacy-container,
+    .column-7-changes-text-1-content,
+    .column-8-contact-us-container,
+    .column-9-governing-law-container,
+    .column-10-img-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-7,
+    .column-8,
+    .column-9,
+    .column-10 {
+        display: flex;
+
+    }  
+}
+
+@media screen and (min-width: 847px) {
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-7,
+    .column-8,
+    .column-9,
+    .column-10 {
+        margin: 0 auto;
+        display: flex;
+        gap: 0.5rem;
+    }
+}
+
+.column-8 a {
+    color: #eb1260;
+}
+
+.column-8 a:hover {
+    font-weight: bold;
+}
+
