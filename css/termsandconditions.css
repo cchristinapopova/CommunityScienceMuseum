@@ -1,0 +1,76 @@
+/*All Columns*/
+
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6,
+.column-7,
+.column-8,
+.column-9,
+.column-10,
+.column-11 {
+    max-width: 840px;
+}
+
+@media screen and (max-width: 399px) {
+    .column-1-introduction-container,
+    .column-2-acceptance-container,
+    .column-3-use-of-website-container,
+    .column-4-content-container,
+    .column-5-links-container,
+    .column-6-disclaimer-container,
+    .column-7-limitation-text-1-content,
+    .column-8-indemnification-container,
+    .column-9-changes-container,
+    .column-10-contact-container,
+    .column-11-img-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-7,
+    .column-8,
+    .column-9,
+    .column-10,
+    .column-11 {
+        display: flex;
+
+    }  
+}
+
+@media screen and (min-width: 847px) {
+    .column-1,
+    .column-2,
+    .column-3,
+    .column-4,
+    .column-5,
+    .column-6,
+    .column-7,
+    .column-8,
+    .column-9,
+    .column-10,
+    .column-11 {
+        margin: 0 auto;
+        display: flex;
+        gap: 0.5rem;
+    }
+}
+
+.column-10 a {
+    color: #eb1260;
+}
+
+.column-10 a:hover {
+    font-weight: bold;
+}
