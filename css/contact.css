@@ -292,8 +292,6 @@
     margin-top: 2rem;
 }
 
-.container-for-form {}
-
 form {
     display: flex;
     flex-direction: column;
