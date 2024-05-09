@@ -11,45 +11,48 @@
     }
 
     .column-1-cosmology-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
 }
 
 @media screen and (min-width: 400px) {
-    .column-1{
+    .column-1 {
         display: flex;
 
     }
+
     .column-1-cosmology-img-1-content img {
         float: right;
         max-width: 50%;
         margin: 0 0 0.5rem 0.5rem;
-    }   
+    }
 }
 
 @media screen and (min-width: 847px) {
     .column-1 {
         margin: 0 auto;
     }
+
     .column-1-cosmology-img-and-text-container {
         display: flex;
         gap: 0.5rem;
     }
-    .column-1-cosmology-img-and-text-container > * {
+
+    .column-1-cosmology-img-and-text-container>* {
         flex-basis: 50%;
     }
+
     .column-1-cosmology-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
+
     .column-1-cosmology-img-1-content img {
         min-width: 100%;
         height: 282px;
     }
-} 
-
-
+}
 
 /*COLUMN 2*/
 
@@ -68,8 +71,8 @@
     }
 
     .column-2-evolution-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
 }
 
@@ -78,33 +81,38 @@
         display: flex;
 
     }
+
     .column-2-evolution-img-1-content img {
         float: left;
         max-width: 50%;
         margin: 0.3rem 0.5rem 0.5rem 0;
-    }   
+    }
 }
 
 @media screen and (min-width: 847px) {
     .column-2 {
         margin: 0 auto;
     }
+
     .column-2-evolution-img-and-text-container {
         display: flex;
         gap: 0.5rem;
     }
-    .column-2-evolution-img-and-text-container > * {
+
+    .column-2-evolution-img-and-text-container>* {
         flex-basis: 50%;
     }
+
     .column-2-evolution-img-1-content {
-        margin-top: 1rem; 
+        margin-top: 1rem;
     }
+
     .column-2-evolution-img-1-content img {
         min-width: 100%;
         height: 340px;
         object-position: top;
     }
-} 
+}
 
 /*COLUMN 3*/
 
@@ -123,43 +131,48 @@
     }
 
     .column-3-biology-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
 }
 
 @media screen and (min-width: 400px) {
-    .column-3{
+    .column-3 {
         display: flex;
 
     }
+
     .column-3-biology-img-1-content img {
         float: right;
         max-width: 50%;
         margin: 0.4rem 0 0.5rem 0.5rem;
-    }   
+    }
 }
 
 @media screen and (min-width: 847px) {
     .column-3 {
         margin: 0 auto;
     }
+
     .column-3-biology-img-and-text-container {
         display: flex;
         gap: 0.5rem;
     }
-    .column-3-biology-img-and-text-container > * {
+
+    .column-3-biology-img-and-text-container>* {
         flex-basis: 50%;
     }
+
     .column-3-biology-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
+
     .column-3-biology-img-1-content img {
         min-width: 100%;
         height: 372px;
     }
-} 
+}
 
 /*COLUMN 4*/
 
@@ -178,8 +191,8 @@
     }
 
     .column-4-robotics-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
 }
 
@@ -188,32 +201,37 @@
         display: flex;
 
     }
+
     .column-4-robotics-img-1-content img {
         float: left;
         max-width: 50%;
         margin: 0.3rem 0.5rem 0.5rem 0;
-    }   
+    }
 }
 
 @media screen and (min-width: 847px) {
     .column-4 {
         margin: 0 auto;
     }
+
     .column-4-robotics-img-and-text-container {
         display: flex;
         gap: 0.5rem;
     }
-    .column-4-robotics-img-and-text-container > * {
+
+    .column-4-robotics-img-and-text-container>* {
         flex-basis: 50%;
     }
+
     .column-4-robotics-img-1-content {
-        margin-top: 1rem; 
+        margin-top: 1rem;
     }
+
     .column-4-robotics-img-1-content img {
         min-width: 100%;
         height: 135px;
     }
-} 
+}
 
 /*COLUMN 5*/
 
@@ -232,47 +250,52 @@
     }
 
     .column-5-ecology-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
 }
 
 @media screen and (min-width: 400px) {
-    .column-5{
+    .column-5 {
         display: flex;
 
     }
+
     .column-5-ecology-img-1-content img {
         float: right;
         max-width: 50%;
         margin: 0.4rem 0 0.5rem 0.5rem;
-    }   
+    }
 }
 
 @media screen and (min-width: 847px) {
     .column-5 {
         margin: 0 auto;
     }
+
     .column-5-ecology-img-and-text-container {
         display: flex;
         gap: 0.5rem;
     }
-    .column-5-ecology-img-and-text-container > * {
+
+    .column-5-ecology-img-and-text-container>* {
         flex-basis: 50%;
     }
+
     .column-5-ecology-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
+
     .column-5-ecology-img-1-content img {
         min-width: 100%;
         height: 260px;
     }
-} 
+}
 
 /*Floating Text*/
 
-.container-for-floating-text{
+.container-for-floating-text {
     max-width: 840px;
     margin: 0 auto;
     position: relative;
@@ -289,6 +312,7 @@
     0% {
         right: 0;
     }
+
     100% {
         right: 100%;
     }
@@ -311,23 +335,24 @@
     }
 
     .column-6-visiting-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
 }
 
 @media screen and (min-width: 400px) {
-    .column-6{
+    .column-6 {
         display: flex;
 
     }
+
     .column-6-visiting-img-1-content img {
         float: right;
         max-width: 50%;
         margin: 0.5rem 0rem 0.5rem 0.5rem;
         min-width: 50%;
         max-height: 200px;
-    }   
+    }
 }
 
 @media screen and (min-width: 847px) {
@@ -335,7 +360,7 @@
         min-width: 100%;
         max-height: 300px;
     }
-} 
+}
 
 /*COLUMN 7*/
 
@@ -354,8 +379,8 @@
     }
 
     .column-7-night-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
 }
 
@@ -364,13 +389,14 @@
         display: flex;
 
     }
+
     .column-7-night-img-1-content img {
         float: left;
         max-width: 50%;
         margin: 0.3rem 0.5rem 0.5rem 0;
         min-width: 50%;
         max-height: 200px;
-    }   
+    }
 }
 
 @media screen and (min-width: 847px) {
@@ -378,7 +404,7 @@
         min-width: 100%;
         max-height: 300px;
     }
-} 
+}
 
 /*COLUMN 8*/
 
@@ -397,23 +423,24 @@
     }
 
     .column-8-energetica-img-1-content {
-        order: 2; 
-        margin-top: 1rem; 
+        order: 2;
+        margin-top: 1rem;
     }
 }
 
 @media screen and (min-width: 400px) {
-    .column-8{
+    .column-8 {
         display: flex;
 
     }
+
     .column-8-energetica-img-1-content img {
         float: right;
         max-width: 50%;
         margin: 0.5rem 0rem 0.5rem 0.5rem;
         min-width: 50%;
         min-height: 200px;
-    }   
+    }
 }
 
 @media screen and (min-width: 847px) {
@@ -431,7 +458,7 @@
         justify-content: center;
     }
 
-    .column-6-visiting-container, 
+    .column-6-visiting-container,
     .column-7-night-container,
     .column-8-energetica-container {
         display: flex;
@@ -439,12 +466,9 @@
         max-width: 17rem;
     }
 
-    .column-6-visiting-container h2, 
+    .column-6-visiting-container h2,
     .column-7-night-container h2,
     .column-8-energetica-container h2 {
         text-align: center;
     }
 }
-
-
-

@@ -15,6 +15,7 @@
 }
 
 @media screen and (max-width: 399px) {
+
     .column-1-introduction-container,
     .column-2-acceptance-container,
     .column-3-use-of-website-container,
@@ -33,6 +34,7 @@
 }
 
 @media screen and (min-width: 400px) {
+
     .column-1,
     .column-2,
     .column-3,
@@ -46,10 +48,11 @@
     .column-11 {
         display: flex;
 
-    }  
+    }
 }
 
 @media screen and (min-width: 847px) {
+
     .column-1,
     .column-2,
     .column-3,
