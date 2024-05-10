@@ -257,6 +257,7 @@
 
     .column-4-accessibility-img-4-content img {
         height: 100%;
+        max-height: 183.2px;
     }
 }
 
@@ -271,14 +272,6 @@
         max-width: 840px;
         margin: 0 auto;
         justify-content: center;
-    }
-
-    .column-5 {
-        max-width: 840px;
-    }
-
-    .column-5 h2 {
-        margin-top: 2rem;
     }
 }
 
