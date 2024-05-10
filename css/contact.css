@@ -253,11 +253,12 @@
 
     .column-4-accessibility-img-4-content {
         margin-top: 5.5rem;
+        display: flex;
+        flex-direction: column;
     }
 
     .column-4-accessibility-img-4-content img {
-        min-width: 100%;
-        min-height: 90%;
+        min-height: 100%;
         max-height: 183.2px;
     }
 }
